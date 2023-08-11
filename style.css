@@ -1,0 +1,121 @@
+:root {
+    --green: #11d200;
+}
+
+
+
+
+p {
+    margin: 0;
+}
+
+
+
+.bg-m {
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+
+
+button {
+    box-shadow: 3px 3px 8px var(--green);
+    background-color: var(--green);
+    border: none;
+    padding: 3;
+}
+
+.cheese-stock {
+    width: 250px;
+    height: 400px;
+    object-fit: contain;
+}
+
+.shield {
+    text-align: end;
+}
+
+.rate {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.light {
+    color: white;
+}
+
+.sign-m {
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.more-info {
+    margin-bottom: 15px;
+}
+
+
+
+.month-sign {
+    margin-left: 50px;
+
+}
+
+.font-mont {
+    font-family: 'Montserrat';
+}
+
+@media(min-width:768px) {
+    .bg-service {
+        position: absolute;
+        bottom: -20px;
+        right: 75px;
+    }
+
+    .bg-box {
+        position: relative;
+    }
+
+    .bg-pic {
+        background-image: url('https://images.unsplash.com/photo-1618164436241-4473940d1f5c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGNoZWVzZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60');
+        background-position: center;
+        background-size: cover;
+    }
+
+    .bg-l {
+        margin: 50px;
+    }
+
+    .small-title {
+        margin-top: 20px;
+    }
+
+    .line-text {
+        text-align: end;
+    }
+
+
+
+
+}
+
+@media(max-width:768px) {
+    .block-cheese {
+        text-align: center;
+    }
+
+    .review {
+        text-align: center;
+        padding: 5;
+    }
+
+    .spacer {
+        padding: 4;
+    }
+
+    .star {
+        justify-content: center;
+        justify-content: space-around;
+    }
+}
