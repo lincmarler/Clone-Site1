@@ -1,10 +1,3 @@
-:root {
-    --green: #11d200;
-}
-
-
-
-
 p {
     margin: 0;
 }
@@ -18,11 +11,17 @@ p {
 
 
 
+
 button {
-    box-shadow: 3px 3px 8px var(--green);
-    background-color: var(--green);
+    box-shadow: 3px 3px 8px yellow;
+    background-color: yellow;
     border: none;
     padding: 3;
+
+}
+
+button:hover {
+    background-color: gold;
 }
 
 .cheese-stock {
@@ -30,6 +29,7 @@ button {
     height: 400px;
     object-fit: contain;
 }
+
 
 .shield {
     text-align: end;
@@ -66,10 +66,27 @@ button {
     font-family: 'Montserrat';
 }
 
+.backdrop {
+    color: white;
+    padding: 1em;
+    border-radius: 6px;
+    background-color: rgba(80, 80, 80, .8);
+    backdrop-filter: blur(10px);
+}
+
+.bg-backdrop {
+    color: white;
+    padding: 1em;
+    border-radius: 6px;
+    background-color: rgba(80, 80, 80, .8);
+    backdrop-filter: blur(10px);
+    margin-bottom: 20px;
+}
+
 @media(min-width:768px) {
     .bg-service {
         position: absolute;
-        bottom: -20px;
+        bottom: -50px;
         right: 75px;
     }
 
@@ -88,13 +105,16 @@ button {
     }
 
     .small-title {
-        margin-top: 20px;
+        margin-top: 55px;
     }
 
     .line-text {
         text-align: end;
     }
 
+    .bg-mar {
+        margin: 70px;
+    }
 
 
 
@@ -112,10 +132,19 @@ button {
 
     .spacer {
         padding: 4;
+        margin-top: 3;
+    }
+
+    .get-big {
+        padding: 20px;
     }
 
     .star {
         justify-content: center;
         justify-content: space-around;
+    }
+
+    .color-switch {
+        color: gold;
     }
 }
